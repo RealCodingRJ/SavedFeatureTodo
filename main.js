@@ -1,7 +1,8 @@
 import fs from "fs";
 import readline from "readline-sync";
+import { getDB } from "./DB/db.js";
 
-const appendText = readline.question("Enter Feature to Learn: ");
+export var appendText = readline.question("Enter Feature to Learn: ");
 const checkMark = "\u2713";
 
 const title = [];
@@ -28,3 +29,5 @@ if (isChecked && isCompleted == "Y") {
     }
   });
 }
+
+getDB(appendText).catch(console.dir);
