@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node main.js",
-    "date": "node DateForNow/DateConfirmed.js"
+    "doc": "docker build -t Name"
   },
   "license": "MIT",
   "dependencies": {
