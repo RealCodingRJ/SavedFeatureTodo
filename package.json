@@ -1,0 +1,15 @@
+{
+  "name": "learnedtopicslist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node main.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.14.0",
+    "@types/readline-sync": "^1.4.8",
+    "readline-sync": "^1.4.10"
+  }
+}
